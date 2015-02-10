@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/save_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7"
+        android:text="Save Card Information"
+        android:padding="15dp"
+        android:textSize="27sp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/card_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Value"
+        android:layout_below="@id/save_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#F7F7F7"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/card_suit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Suit"
+        android:layout_below="@id/card_value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#F7F7F7"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/save_card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/save_card_button"
+        android:layout_below="@id/card_suit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Save"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/cweaver/AndroidstudioProjects/Parse-Starter-Project-1.8.2/ParseStarterProject/res/layout/save_card_layout.xml -->
