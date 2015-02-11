@@ -1,4 +1,4 @@
-C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\classes\debug
-C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-26e76e8a944883e5f68cd12b60d2d72889f252f3.jar
-C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-bf5037ccc3bc012c234c3f0cbe16b5af839ba553.jar
-C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.8.2-71cbf32cfa7c79ec86e6a94c12ed573c4833aa4a.jar
+C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\build\intermediates\classes\debug
+C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-26e76e8a944883e5f68cd12b60d2d72889f252f3.jar
+C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-5e642a5612a6fc3bb636fe22a151bce668bc16bf.jar
+C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.8.2-ff391df6814d6630cbb0bdb25f58bb7bff0213fa.jar

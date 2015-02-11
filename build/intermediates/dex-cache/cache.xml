@@ -2,6 +2,27 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\libs\ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-bf5037ccc3bc012c234c3f0cbe16b5af839ba553.jar" />
+    </item>
+    <item
+        jar="C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\libs\Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.8.2-ff391df6814d6630cbb0bdb25f58bb7bff0213fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\libs\ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="C:\Users\Caleb\AndroidStudioProjects\Cardulous\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-5e642a5612a6fc3bb636fe22a151bce668bc16bf.jar" />
+    </item>
+    <item
         jar="C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\libs\Parse-1.8.2.jar"
         jumboMode="false"
         revision="21.1.1"
@@ -14,13 +35,6 @@
         revision="21.1.1"
         sha1="129874135e6081269ace2312092031558865de12">
         <dex dex="C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-26e76e8a944883e5f68cd12b60d2d72889f252f3.jar" />
-    </item>
-    <item
-        jar="C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\libs\ParseCrashReporting-1.8.2.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
-        <dex dex="C:\Users\Caleb\AndroidStudioProjects\Parse-Starter-Project-1.8.2\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-bf5037ccc3bc012c234c3f0cbe16b5af839ba553.jar" />
     </item>
 
 </items>

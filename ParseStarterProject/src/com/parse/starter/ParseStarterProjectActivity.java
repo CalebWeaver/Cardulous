@@ -21,10 +21,6 @@ public class ParseStarterProjectActivity extends Activity {
             ft.add(saveCardFragment, "SaveCardFragment").commit();
         }
 
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "head");
-        testObject.saveInBackground();
-
 		ParseAnalytics.trackAppOpenedInBackground(getIntent());
 	}
 }

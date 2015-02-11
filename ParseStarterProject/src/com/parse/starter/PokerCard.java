@@ -18,12 +18,8 @@ public class PokerCard implements Card {
 
     public PokerCard (String suit, String value) throws InvalidValueException {
         initializeConstants();
-        if (SUITS.contains(suit) && VALUES.contains(value)) {
-            this.suit = suit;
-            this.value = value;
-        } else {
-            throw new InvalidValueException();
-        }
+        this.suit = suit;
+        this.value = value;
     }
 
     private void initializeConstants() {

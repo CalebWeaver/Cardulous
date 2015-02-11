@@ -9,4 +9,4 @@
         android:id="@+id/save_card_fragment"
         android:name="com.parse.starter.SaveCardFragment"/>
 
-</RelativeLayout><!-- From: file:/C:/Users/cweaver/AndroidstudioProjects/Parse-Starter-Project-1.8.2/ParseStarterProject/res/layout/main.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Caleb/AndroidStudioProjects/Cardulous/ParseStarterProject/res/layout/main.xml -->
