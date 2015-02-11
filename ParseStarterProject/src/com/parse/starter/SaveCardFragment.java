@@ -1,6 +1,8 @@
 package com.parse.starter;
 
 import android.app.Fragment;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -51,12 +53,17 @@ public class SaveCardFragment extends Fragment {
         String suit = ((TextView) v.findViewById(R.id.card_suit)).getText().toString();
         String deckLabel = ((TextView) v.findViewById(R.id.deck)).getText().toString();
 
+        SharedPreferences.Editor editor = getActivity().getSharedPreferences(getActivity().getString(R.string.main_prefs), Context.MODE_PRIVATE).edit();
+        editor.putString(getActivity().getString(R.string.pref_deck_label), deckLabel);
+        editor.commit();
+
         try {
             PokerCard card = new PokerCard(value, suit);
 
             ParseObject pokerCard = new ParseObject("PokerCard");
             pokerCard.put("value", card.getValue());
             pokerCard.put("suit", card.getSuit());
+            pokerCard.put("deck", card.getSuit());
             pokerCard.saveInBackground();
 
             Toast.makeText(getActivity(), "Card Created", Toast.LENGTH_LONG).show();

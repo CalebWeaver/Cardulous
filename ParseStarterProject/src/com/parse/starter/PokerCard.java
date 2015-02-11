@@ -11,15 +11,19 @@ import java.util.ArrayList;
 public class PokerCard implements Card {
     private final String LOG_TAG = this.getClass().getSimpleName();
 
+    private String STATE_DECK = "deck";
+
     private ArrayList<String> SUITS = new ArrayList<String>();
     private ArrayList<String> VALUES = new ArrayList<String>();
     private String suit;
     private String value;
+    private String state;
 
     public PokerCard (String suit, String value) throws InvalidValueException {
         initializeConstants();
         this.suit = suit;
         this.value = value;
+        state = STATE_DECK;
     }
 
     private void initializeConstants() {

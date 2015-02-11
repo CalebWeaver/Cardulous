@@ -38,14 +38,26 @@
         android:padding="10dp"
         android:textSize="20sp"/>
 
+    <EditText
+        android:id="@+id/deck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deck"
+        android:layout_below="@id/card_suit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#F7F7F7"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
     <Button
         android:id="@+id/save_card_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/save_card_button"
-        android:layout_below="@id/card_suit"
+        android:layout_below="@id/deck"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Save"/>
 
-</RelativeLayout><!-- From: file:/C:/Users/Caleb/AndroidStudioProjects/Cardulous/ParseStarterProject/res/layout/save_card_layout.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/cweaver/AndroidstudioProjects/Cardulous/ParseStarterProject/res/layout/save_card_layout.xml -->

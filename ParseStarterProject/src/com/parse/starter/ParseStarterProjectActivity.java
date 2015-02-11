@@ -11,14 +11,16 @@ public class ParseStarterProjectActivity extends Activity {
 
     private SaveCardFragment saveCardFragment;
 
+    @Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
         if (savedInstanceState == null) {
             saveCardFragment = new SaveCardFragment();
-            FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.add(saveCardFragment, "SaveCardFragment").commit();
+            getFragmentManager().beginTransaction()
+                .add(R.id.container, saveCardFragment)
+                .commit();
         }
 
 		ParseAnalytics.trackAppOpenedInBackground(getIntent());
